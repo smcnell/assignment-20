@@ -1,10 +1,20 @@
 body {
-  background: purple; }
+  background: #fff; }
+
+h1 {
+  text-align: center; }
 
 h2 {
-  color: red; }
+  color: blue; }
 
 h3 {
   color: green; }
+
+.mydivclass {
+  max-height: 345px;
+  padding-bottom: 30px; }
+
+.mydivclass h2 {
+  font-size: 20px; }
 
 /*# sourceMappingURL=styles.css.map*/
