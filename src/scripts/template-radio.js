@@ -12,7 +12,7 @@ export const createRadioTemplate = function(songList, someName){
 	}).join("")
 
 	return `
-	<h1>${someName}</h1>
+	<h1>${someName} Playlist</h1>
 	<hr/>
 	<div class="row">
 		${playlistHtmlStr}

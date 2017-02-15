@@ -64,4 +64,18 @@ const AppRouter = Backbone.Router.extend({
 
 })
 
+
+//link buttons//
+let buttonEl=document.querySelector('.mylinksbuttons')
+buttonEl.addEventListener("click", function(evt){
+  console.log("click")
+
+  var currentTarget= evt.target
+  console.log(currentTarget)
+
+  // var currentHash= window.location.hash
+
+
+})
+
 let myBBCRadioApplication = new AppRouter()
