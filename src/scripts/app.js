@@ -95,7 +95,7 @@ let infoContainerEl = document.querySelector('.information-container')
 //   console.log(currentTarget)
 //
 //
-// 
+//
 // })
 
 let myBBCRadioApplication = new AppRouter()

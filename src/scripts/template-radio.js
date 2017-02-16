@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Backbone from 'backbone'
 
 //attempt at models//
@@ -11,6 +12,16 @@ export const createRadioTemplate = function(songList, someName){
 					<img class="profile-img" src="${songObj.get('image')}">
 					<h2>${songObj.get('title')}</h2>
           <h4>${songObj.get('artist')}</h4>
+=======
+export const createRadioTemplate = function(songList, someName){
+	let playlistHtmlStr = songList.map(function(songObj){
+		return `
+			<div class="col-xs-12 col-sm-4 col-md-3 mydivclass">
+				<div class="thumbnail mythumbnail">
+					<img class="profile-img" src="${songObj.image}">
+					<h2>${songObj.title}</h2>
+          <h4>${songObj.artist}</h4>
+>>>>>>> a22f006d9d55b5b5a72d56b9ff535a6908e6e4ed
 				</div>
 			</div>
 		`
@@ -25,6 +36,7 @@ export const createRadioTemplate = function(songList, someName){
 	`
 
 }
+<<<<<<< HEAD
 
 
 //old//
@@ -51,3 +63,5 @@ export const createRadioTemplate = function(songList, someName){
 // 	`
 //
 // }
+=======
+>>>>>>> a22f006d9d55b5b5a72d56b9ff535a6908e6e4ed

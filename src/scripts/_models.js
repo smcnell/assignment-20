@@ -36,18 +36,18 @@ export const Playlist2Collection= Backbone.Collection.extend({
 })
 
 
-// export const PlaylistHomepageCollection= Backbone.Collection.extend({
-//   initialize: function(){
-//   },
-//
-//   parse: function(rawServerRes){
-//   console.log('parsing Response')
-//   console.log(rawServerRes.playlist)
-//   return rawServerRes.playlist.introducing
-//   },
-//
-//   url: '/proxy?api=http://www.bbc.co.uk/radio1/playlist.json',
-//
-//   model: PlaylistModel
-//
-// })
+export const PlaylistHomepageCollection= Backbone.Collection.extend({
+  initialize: function(){
+  },
+
+  parse: function(rawServerRes){
+  console.log('parsing Response')
+  console.log(rawServerRes.playlist)
+  return rawServerRes.playlist.introducing
+  },
+
+  url: '/proxy?api=http://www.bbc.co.uk/radio1/playlist.json',
+
+  model: PlaylistModel
+
+})
