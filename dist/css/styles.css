@@ -1,10 +1,29 @@
 body {
-  background: purple; }
+  background: #fff; }
+
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 0; }
 
 h2 {
-  color: red; }
+  color: #2ECC71; }
 
 h3 {
-  color: green; }
+  color: #2ECC71; }
+
+hr {
+  margin: 1px; }
+
+.mydivclass {
+  max-height: 345px;
+  padding-bottom: 30px; }
+
+.mydivclass h2 {
+  font-size: 16px; }
+
+.myjumbotron {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map*/
