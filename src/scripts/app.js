@@ -87,15 +87,15 @@ let infoContainerEl = document.querySelector('.information-container')
 
 
 //link buttons//
-let buttonEl=document.querySelector('.mylinksbuttons')
-buttonEl.addEventListener("click", function(evt){
-  console.log("click")
-
-  var currentTarget= evt.target
-  console.log(currentTarget)
-
-
-
-})
+// let buttonEl=document.querySelector('.mylinksbuttons')
+// buttonEl.addEventListener("click", function(evt){
+//   console.log("click")
+//
+//   var currentTarget= evt.target
+//   console.log(currentTarget)
+//
+//
+// 
+// })
 
 let myBBCRadioApplication = new AppRouter()
